@@ -15,5 +15,5 @@ def numberGen(x,y):                                                             
 
 dollars = numberGen(input("How much was the meal? "),nums)                         # !!! important write number generator function before insert this function in input variable
 percent = numberGen(input("What percentage would you like to tip? "),nums)
-
-print("Leave "+ str(dollars*percent/100))                                          # print final result
+result = dollars*percent/100
+print(f"Leave {result:.2f}")                                                       # print final result
